@@ -36,3 +36,9 @@ Then go to 127.0.0.1:8000/admin.
 
 The reason why we can go to this page is because because admin is set up in our urls.py (the reason why we can see the congratulations page is because Django gives you that until you add your own URLs).
 </p>
+
+
+<p>
+  After Adding the cities in Admin panel Visit 127.0.0.1:8000 to see the App working..
+  </p>
+  
