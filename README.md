@@ -18,7 +18,7 @@ Next we want to take a look at the admin dashboard Django gives us. To do that, 
 >> python manage.py migrate
 
 
->By running that command, Django has created a SQLite database for you, the default database in the settings, and it has added several tables to that database. You'll know if the database was created if you see a new db.sqlite3 file in your project directory.
+By running that command, Django has created a SQLite database for you, the default database in the settings, and it has added several tables to that database. You'll know if the database was created if you see a new db.sqlite3 file in your project directory.
 One of the tables Django gives us is a user table, which will be used to store any users in our app. The app we're building doesn't need any users, but having an admin user will allow us to access the admin dashboard.
 To create an admin user, we'll run the createsuperuser command.
 
