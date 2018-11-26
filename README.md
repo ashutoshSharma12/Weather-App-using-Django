@@ -8,14 +8,14 @@ Weather Web based App using Django
 
 >>cd the_weather 
 
->>python manage.py runserver
+>>python3 manage.py runserver
 #### If you look at your terminal, you should see the URL for your app. By default it should be 127.0.0.1:8000.
 >Open up your browser and go to that URL.
 
 ##### The Admin Dashboard
 
 Next we want to take a look at the admin dashboard Django gives us. To do that, first we have to migrate our database, which means Django will create the pre-defined tables that are needed for the default apps. To do this, you simply run the migrate command. Stop the server by using CTRL+C and then run:
->> python manage.py migrate
+>> python3 manage.py migrate
 
 
 By running that command, Django has created a SQLite database for you, the default database in the settings, and it has added several tables to that database. You'll know if the database was created if you see a new db.sqlite3 file in your project directory.
@@ -23,13 +23,13 @@ One of the tables Django gives us is a user table, which will be used to store a
 To create an admin user, we'll run the createsuperuser command.
 
 
->>python manage.py createsuperuser
+>>python3 manage.py createsuperuser
 <p>
 Follow the instructions by giving a username, email address, and a password for your admin user. Once you've done that, you'll need to start the server again and navigate to the admin dashboard.
 
 </p>
 
->>python manage.py runserver
+>>python3 manage.py runserver
 
 <p>
 Then go to 127.0.0.1:8000/admin.
