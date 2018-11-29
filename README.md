@@ -2,7 +2,7 @@
 Weather Web based App using Django
 ## Lets Get Started
 
-### Go the Project Folder and Write Following Commands
+### Go the Project Folder and Write Following Commands in the Terminal/Command-Prompt
 
 > django-admin startproject the_weather
 
